@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Playfair+Display+SC');
+
+.App {
+  padding: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+header {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 64px;
+  text-align: center;
+}
+
+
+html {
+  font-family: 'helvetica neue', sans-serif;
+}
+
+thead th, tfoot th {
+  font-family: 'Rock Salt';
+}
+
+th {
+  letter-spacing: 2px;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+th:last-child {
+  border-right: none;
+}
+
+td {
+  letter-spacing: 1px;
+  overflow-x:hidden;
+  overflow-y:hidden;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  border-right: 1px solid #ddd;
+}
+
+td:last-child {
+  border-right: none;
+}
+
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  overflow:hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.content_td p {
+  max-width: 100%;
+  max-height: 100px;
+  overflow-y: auto;
+  text-overflow: ellipsis;
+}
+
+
+thead th:nth-child(1) {
+  width: 10%;
+}
+
+thead th:nth-child(2) {
+  width: 10%;
+}
+
+thead th:nth-child(3) {
+  width: 10%;
+}
+
+thead th:nth-child(4) {
+  width: 30%;
+}
+
+thead th:nth-child(5) {
+  width: 30%;
+}
+
+thead th:nth-child(6) {
+  width: 10%;
+}
+
+
+tbody td:nth-child(1) {
+  width: 10%;
+}
+
+tbody td:nth-child(2) {
+  width: 10%;
+}
+
+tbody td:nth-child(3) {
+  width: 10%;
+}
+
+tbody td:nth-child(4) {
+  width: 30%;
+}
+
+tbody td:nth-child(5) {
+  width: 30%;
+}
+
+tbody td:nth-child(6) {
+  width: 10%;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #fff0c7;
+}
+
+tbody td img {
+  width: 100%;
+  height: 100%;
+  object-fit: scale-down;
+}
+
+form[name="create"] {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 1em;
+  margin-top: 2em;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+form[name="create"] > div {
+  display: flex;
+  flex-direction: column;
+}
+
+form[name="create"] label {
+  margin-bottom: 0.25em;
+  font-weight: bold;
+  width: auto;
+}
+
+form[name="create"] input,
+form[name="create"] textarea {
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: inherit;
+}
+
+form[name="create"] input {
+  width: 150px;
+}
+
+form[name="create"] textarea {
+  width: 200px;
+  height: 60px;
+  resize: vertical;
+}
+
+form[name="create"] button {
+  padding: 0.5em 1.5em;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+form[name="create"] button:hover {
+  background-color: #45a049;
+}
